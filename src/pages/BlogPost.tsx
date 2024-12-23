@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Clock, User } from 'lucide-react';
+import { ArrowLeft, Clock } from 'lucide-react';
+import ReactMarkdown from 'react-markdown';
 import { blogs } from '../data/blogs';
 
 export default function BlogPost() {
@@ -60,13 +61,8 @@ export default function BlogPost() {
 
           <h1 className="text-4xl font-bold text-gray-900 mb-4">{blog.title}</h1>
 
-          <div className="prose max-w-none">
-            {blog.content.split('\n').map((paragraph, index) => (
-              <p key={index} className="text-gray-600 mb-4">
-                {paragraph}
-              </p>
-            ))}
-          </div>
+          {/* Use ReactMarkdown for parsing and rendering markdown content */}
+          <ReactMarkdown className="prose max-w-none text-gray-600">{blog.content}</ReactMarkdown>
         </div>
       </div>
     </div>
