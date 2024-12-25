@@ -288,7 +288,7 @@ export const blogs: BlogPost[] = [
     id: '14',
     title: 'Sustainable Living in Urban Spaces',
     excerpt: 'Practical tips for maintaining an eco-friendly lifestyle in city environments.',
-    content: `# Sustainable Living in Urban Spaces
+    content: `
 
 Living sustainably in urban areas presents unique challenges, but with thoughtful planning and dedication, it's entirely possible to reduce your environmental impact while enjoying city life.
 
@@ -342,7 +342,7 @@ By making small changes in our daily routines, we can contribute to a more susta
     id: '15',
     title: 'The Future of Artificial Intelligence in Healthcare',
     excerpt: 'Exploring how AI is revolutionizing medical diagnosis and treatment.',
-    content: `# The Future of Artificial Intelligence in Healthcare
+    content: `
 
 Artificial Intelligence is transforming healthcare in unprecedented ways, from improving diagnostic accuracy to personalizing treatment plans. This technological revolution promises to enhance patient care while reducing healthcare costs.
 
@@ -402,7 +402,7 @@ Artificial Intelligence is transforming healthcare in unprecedented ways, from i
     id: '16',
     title: 'Global Street Food Culture',
     excerpt: 'A journey through the world\'s most vibrant street food scenes.',
-    content: `# Global Street Food Culture
+    content: `
 
 Street food represents the heart and soul of a city's culinary culture. From the bustling markets of Bangkok to the food carts of Mexico City, street food offers authentic flavors and cultural experiences.
 
@@ -464,7 +464,7 @@ Street food represents the heart and soul of a city's culinary culture. From the
     id: '17',
     title: 'Financial Planning for Millennials',
     excerpt: 'Essential financial strategies for the modern generation.',
-    content: `# Financial Planning for Millennials
+    content: `
 
 ## Understanding Modern Financial Challenges
 
@@ -530,7 +530,7 @@ Millennials face unique financial challenges in today's economy. From student lo
     id: '18',
     title: 'The Science of Sleep',
     excerpt: 'Understanding sleep cycles and improving sleep quality.',
-    content: `# The Science of Sleep
+    content: `
 
 ## Understanding Sleep's Vital Role
 
