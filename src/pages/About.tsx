@@ -21,6 +21,7 @@ import {
   Code,
   TrendingUp,
 } from 'lucide-react';
+import Index from '../components';
 
 export default function About() {
   return (
@@ -30,11 +31,7 @@ export default function About() {
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
-              <img
-                src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
-                alt="Admin Profile"
-                className="rounded-2xl shadow-2xl"
-              />
+              <Index/>
             </div>
             <div className="w-full md:w-1/2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
