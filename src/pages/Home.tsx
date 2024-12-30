@@ -5,6 +5,7 @@ import FeaturedSection from '../components/featured/FeaturedSection';
 import BlogCard from '../components/BlogCard';
 import { blogs } from '../data/blogs';
 import CreativeBtn2 from '../components/Button/CreativeBtn2';
+import Index from '@/components/Marquee/Index';
 
 export default function Home() {
   const recentBlogs = blogs.slice(3, 6);
@@ -64,6 +65,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Index />
 
       {/* Recent Posts Section */}
       <section className="py-16 bg-violet-50">
