@@ -4,6 +4,7 @@ import { ArrowRight, BookOpen, Users, Sparkles } from 'lucide-react';
 import FeaturedSection from '../components/featured/FeaturedSection';
 import BlogCard from '../components/BlogCard';
 import { blogs } from '../data/blogs';
+import CreativeBtn2 from '../components/Button/CreativeBtn2';
 
 export default function Home() {
   const recentBlogs = blogs.slice(3, 6);
@@ -22,10 +23,11 @@ export default function Home() {
             </p>
             <Link
               to="/blogs"
-              className="inline-flex items-center px-6 py-3 bg-pink-600 text-white font-medium rounded-full hover:bg-pink-700 transition-colors"
+              className="inline-flex items-center px-6 py-3"
             >
-              Start Reading
-              <ArrowRight className="ml-2 h-5 w-5" />
+              {/* Start Reading
+              <ArrowRight className="ml-2 h-5 w-5" /> */}
+            <CreativeBtn2 arg='Start Reading'/>
             </Link>
           </div>
         </div>
