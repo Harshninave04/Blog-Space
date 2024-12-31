@@ -6,6 +6,7 @@ import BlogCard from '../components/BlogCard';
 import { blogs } from '../data/blogs';
 import CreativeBtn2 from '../components/Button/CreativeBtn2';
 import Index from '@/components/Marquee/Index';
+import MouseTrail from '@/components/MouseTrail/Index';
 
 export default function Home() {
   const recentBlogs = blogs.slice(3, 6);
@@ -33,6 +34,8 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <Index />
 
       {/* Featured Section */}
       <FeaturedSection />
@@ -66,7 +69,7 @@ export default function Home() {
         </div>
       </section>
 
-      <Index />
+      <MouseTrail />
 
       {/* Recent Posts Section */}
       <section className="py-16 bg-violet-50">
