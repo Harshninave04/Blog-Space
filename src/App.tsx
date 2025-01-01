@@ -6,12 +6,14 @@ import Home from './pages/Home';
 import BlogList from './pages/BlogList';
 import BlogPost from './pages/BlogPost';
 import About from './pages/About';
-import CanvasCursor from './components/CanvasCursor';
+import CanvasCursor from './components/Cursor/CanvasCursor';
+// import CharacterCursor from './components/Cursor/CharacterCursor';
 
 function App() {
   return (
     <Router>
       <div className="flex flex-col min-h-screen">
+        {/* <CharacterCursor /> */}
         <CanvasCursor />
         <Navbar />
         <main className="flex-grow">
