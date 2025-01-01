@@ -60,7 +60,7 @@ export default function BlogCard({ blog }: BlogCardProps) {
           {/* Read More Link */}
           <Link
             to={`/blog/${blog.id}`}
-            className="text-pink-600 text-xs font-medium hover:text-pink-700 transition-colors flex-shrink-0">
+            className="py-1.5 px-4 bg-pink-50 text-pink-600 text-xs font-medium rounded-lg shadow-sm hover:bg-pink-100 hover:text-pink-700 transition-colors duration-200">
             Read More →
           </Link>
         </div>
