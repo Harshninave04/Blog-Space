@@ -21,17 +21,19 @@ import {
   Code,
   TrendingUp,
 } from 'lucide-react';
-import Index from '../components';
+import Index from '@/components/Index';
+import CharacterCursor from '@/components/Cursor/CharacterCursor';
 
 export default function About() {
   return (
     <div className="min-h-screen bg-violet-50">
+      <CharacterCursor/>
       {/* Hero Section */}
       <section className="pt-20 pb-32 px-4">
         <div className="max-w-6xl mx-auto">
           <div className="flex flex-col md:flex-row items-center gap-12">
             <div className="w-full md:w-1/2">
-              <Index/>
+            <Index />
             </div>
             <div className="w-full md:w-1/2">
               <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
