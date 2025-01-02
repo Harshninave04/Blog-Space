@@ -1,3 +1,6 @@
+
+### `This blog showcases demo content created for display purposes. The data used here is entirely fictional and serves to illustrate the design and functionality of the site.`
+
 # BlogVerse
 
 > A space where I reflect on thoughts, ideas, and the musings that come to mind. Join me as I explore different perspectives and share my unique take on the world.
