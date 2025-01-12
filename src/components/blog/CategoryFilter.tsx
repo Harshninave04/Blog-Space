@@ -20,7 +20,7 @@ export default function CategoryFilter({
       <div className="space-y-0.5">
         <button
           onClick={() => onSelectCategory('all')}
-          className={`w-full text-left px-3 py-1.5 rounded-md transition-colors flex justify-between items-center ${
+          className={`w-full text-left px-3 py-2 rounded-md transition-colors flex justify-between items-center ${
             selectedCategory === 'all' ? 'bg-pink-600 text-white' : 'hover:bg-gray-50 text-gray-700'
           }`}>
           <span className="text-sm">All Posts</span>
@@ -34,7 +34,7 @@ export default function CategoryFilter({
           <button
             key={category}
             onClick={() => onSelectCategory(category)}
-            className={`w-full text-left px-3 py-1.5 rounded-md transition-colors flex justify-between items-center ${
+            className={`w-full text-left px-3 py-2 rounded-md transition-colors flex justify-between items-center ${
               selectedCategory === category
                 ? 'bg-pink-600 text-white'
                 : 'hover:bg-gray-50 text-gray-700'
