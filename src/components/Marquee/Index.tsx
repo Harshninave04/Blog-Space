@@ -4,7 +4,7 @@ import ScrollBaseAnimation from '../TextMarquee';
 function Index() {
   return (
     <>
-      <div className='h-[500px] grid place-content-center'>
+      <div className='h-[200px] md:h-[500px] grid place-content-center'>
         <ScrollBaseAnimation
           delay={500}
           baseVelocity={-3}

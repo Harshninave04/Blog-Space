@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Clock } from 'lucide-react';
+import { Clock, ArrowRight } from 'lucide-react';
 import { BlogPost } from '../types';
 
 interface BlogCardProps {
@@ -65,12 +65,12 @@ export default function BlogCard({ blog }: BlogCardProps) {
               </div>
             </div>
 
-            {/* Read More Link */}
+            {/* Read More Icon */}
             <Link
               to={`/blog/${blog.id}`}
-              className="inline-flex items-center justify-center px-4 py-1.5 bg-pink-50 text-pink-600 text-sm font-medium rounded-lg hover:bg-pink-100 hover:text-pink-700 transition-colors duration-200 whitespace-nowrap flex-shrink-0"
+              className="inline-flex items-center justify-center p-2 bg-pink-50 text-pink-600 rounded-lg hover:bg-pink-100 hover:text-pink-700 transition-colors duration-200 flex-shrink-0"
             >
-              Read More
+              <ArrowRight className="h-4 w-4 transition-transform duration-200 hover:translate-x-1" />
             </Link>
           </div>
         </div>
