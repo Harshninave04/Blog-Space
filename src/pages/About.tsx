@@ -27,42 +27,50 @@ import CharacterCursor from '@/components/Cursor/CharacterCursor';
 export default function About() {
   return (
     <div className="min-h-screen bg-violet-50">
-      <CharacterCursor/>
+      <CharacterCursor />
       {/* Hero Section */}
-      <section className="pt-20 pb-32 px-4">
-        <div className="max-w-6xl mx-auto">
-          <div className="flex flex-col md:flex-row items-center gap-12">
-            <div className="w-full md:w-1/2">
-            <Index />
+      <section className="min-h-screen flex items-center py-12 px-4 sm:px-6 lg:px-8">
+        <div className="max-w-6xl mx-auto w-full">
+          <div className="flex flex-col lg:flex-row items-center gap-8 lg:gap-12">
+            {/* Left column - Index component */}
+            <div className="w-full lg:w-1/2 order-2 lg:order-1">
+              <Index />
             </div>
-            <div className="w-full md:w-1/2">
-              <h1 className="text-4xl md:text-5xl font-bold text-gray-900 mb-6">
+
+            {/* Right column - Profile content */}
+            <div className="w-full lg:w-1/2 text-center lg:text-left order-1 lg:order-2">
+              <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-4 sm:mb-6">
                 Hi, I'm Harsh Ninave
               </h1>
-              <p className="text-xl text-gray-600 mb-8">
+              <p className="text-lg sm:text-xl text-gray-600 mb-6 sm:mb-8">
                 Founder & Lead Editor at BlogVerse. I'm passionate about creating a platform where
                 writers can share their stories and readers can discover new perspectives.
               </p>
-              <div className="flex space-x-4">
+
+              {/* Social links */}
+              <div className="flex justify-center lg:justify-start space-x-6">
                 <a
                   href="https://github.com/Harshninave04"
                   target="_blank"
-                  className="text-gray-600 hover:text-pink-600">
+                  className="text-gray-600 hover:text-pink-600 transition-colors duration-200">
                   <Github className="h-6 w-6" />
                 </a>
                 <a
                   href="https://twitter.com/HarshNinave2004"
                   target="_blank"
-                  className="text-gray-600 hover:text-pink-600">
+                  className="text-gray-600 hover:text-pink-600 transition-colors duration-200">
                   <Twitter className="h-6 w-6" />
                 </a>
                 <a
                   href="https://linkedin.com/in/harshninave2004"
                   target="_blank"
-                  className="text-gray-600 hover:text-pink-600">
+                  className="text-gray-600 hover:text-pink-600 transition-colors duration-200">
                   <Linkedin className="h-6 w-6" />
                 </a>
-                <a href="#" target="_blank" className="text-gray-600 hover:text-pink-600">
+                <a
+                  href="#"
+                  target="_blank"
+                  className="text-gray-600 hover:text-pink-600 transition-colors duration-200">
                   <Mail className="h-6 w-6" />
                 </a>
               </div>
