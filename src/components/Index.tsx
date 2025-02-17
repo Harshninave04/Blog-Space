@@ -8,9 +8,9 @@ function Index() {
         {/* Image Container */}
         <div className="w-full h-full">
           <img
-            src="https://images.unsplash.com/photo-1517849845537-4d257902454a?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
+            src="harsh.jpg"
             alt="Profile"
-            className="h-full w-full scale-105 group-hover:scale-100 object-cover transition-all duration-300 rounded-md"
+            className="h-full w-full grayscale scale-105 group-hover:scale-100 object-cover transition-all duration-300 rounded-md"
           />
         </div>
 
